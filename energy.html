@@ -3,6 +3,9 @@
 <head>
   <title>Energy Audit</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" 
+  rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" 
+  crossorigin="anonymous">
 </head>
 <body>
     <div class="gradient-background">
@@ -14,19 +17,52 @@
     <ul>
       <li><a href="#overview">Overview</a></li>
       <li><a href="#benefits">Benefits</a></li>
+      <li><a href="#objective">Objective</a></li>
       <li><a href="#process">Process</a></li>
       <li><a href="#tips">Energy Saving Tips</a></li>
     </ul>
   </nav>
   
   <main>
+    <!-- overview -->
     <section id="overview">
-      <h2>Overview</h2>
+      <h2 class="mainFont">Overview</h2>
       <p>An energy audit is a systematic analysis of energy consumption and usage in a building or facility. It helps identify areas of energy wastage and inefficiency, and provides recommendations to improve energy efficiency and reduce energy costs.</p>
     </section>
-    
+
+    	<!-- carousel -->
+	  <div class="container">
+		<div id="myCarousel" class="carousel slide my-3">
+		  <div class="carousel-indicators ">
+			<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+			<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+			<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+		  </div>
+		  <div class="carousel-inner">
+			<div class="carousel-item active">
+			  <img src="./img1.jpg" class="d-block w-100 " alt="img1">
+			</div>
+			<div class="carousel-item">
+			  <img src="./img2.jpg" class="d-block w-100" alt="img2">
+			</div>
+			<div class="carousel-item">
+			  <img src="./img3.jpg" class="d-block w-100" alt="img3">
+			</div>
+		  </div>
+		  <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Previous</span>
+		  </button>
+		  <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Next</span>
+		  </button>
+		</div>
+	  </div>
+
+    <!-- beneffits -->
     <section id="benefits">
-      <h2>Benefits</h2>
+      <h2 class="mainFont">Benefits</h2>
       <ul>
         <li>Identify energy-saving opportunities</li>
         <li>Reduce energy consumption and costs</li>
@@ -35,21 +71,45 @@
         <li>Extend the lifespan of equipment and systems</li>
       </ul>
     </section>
+
+    <!--objective  -->
+    <section id="objective">
+     <h2 class="mainFont">Ojective of energy Management</h2>
+      <ul>
+       <li>To achieve and maintain optimum energy 
+        procurement and utilisation, throughout the 
+        organization</li>
+       <li>To minimise energy costs / waste without affecting 
+        production & quality
+        </li>
+       <li>To minimise environmental effects.</li>
+       <li>TO KNOW TECHNICAL PERFORMANCE OF MAJOR 
+        EQUIPTMENT / SYSTEMS</li>
+       <li>TO IDENTIFY LOSS AREAS</li>
+       <li>TO ASSESS TECHNO ECONOMIC FEASIBILITY OF 
+        ENCON OPTIONS</li>
+     </ul>
+  </section>
     
+    <!-- process -->
     <section id="process">
-      <h2>Process</h2>
+      <h2 class="mainFont">Steps Involved in an Energy Audit</h2>
       <ol>
-        <li>Initial assessment and data collection</li>
-        <li>On-site inspection and energy measurements</li>
-        <li>Analysis of energy usage patterns</li>
-        <li>Identification of energy-saving opportunities</li>
-        <li>Recommendations for energy efficiency improvements</li>
-        <li>Implementation and monitoring</li>
+        <li>Data collection</li>
+        <li>Efficiency Evaluation</li>
+        <li>Loss Quantification</li>
+        <li>Operational Improvement Measures</li>
+        <li>Techno Economic Evaluation of Projects</li>
+        <li>Designing Energy Data Report System</li>
+        <li>Instrumentation Requirement</li>
+        <li>Action Plan For ENCON Implementation</li>
+        <li>Review --Setting Up of Target</li>
       </ol>
     </section>
     
+    <!-- tips -->
     <section id="tips">
-      <h2>Energy Saving Tips</h2>
+      <h2 class="mainFont">Some in general Energy Saving Tips for You</h2>
       <ul>
         <li>Use energy-efficient lighting</li>
         <li>Insulate the building properly</li>
@@ -65,5 +125,7 @@
     <p>&copy; 2023 Energy Audit By Hitesh. All rights reserved.</p>
   </footer>
   </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>  
 </body>
 </html>
